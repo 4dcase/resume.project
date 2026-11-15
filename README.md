@@ -6,6 +6,7 @@ Built with HTML and CSS only — no JavaScript, no frameworks
 Built with HTML5 · CSS3 · No JavaScript
 
 Overview
+
 A single-page personal resume that introduces who I am, what I'm studying, what I'm learning, my interests outside coursework, and how to reach me. Everything is contained in two files:
 index.html — page structure and content, written in semantic HTML5
 style.css — all visual styling, layout and animation
@@ -15,6 +16,7 @@ The site works fully without JavaScript. Interactions like the flip cards and em
 Sections
 
 1. Hero
+
 The opening screen. My name appears in uppercase with a fade-in animation over a dark gradient background. Below it sits a short introduction, two buttons linking into the page, a row of interest tags, and a one-line note.
 Behind the text, three blurred colour blobs drift slowly, a rotating conic halo sits centred, light beams sweep across, and small particles float up and down. These are purely decorative (aria-hidden="true") and add depth without competing with the text.
 
@@ -34,24 +36,24 @@ Each card flips on click to reveal a longer note, and flips back on a second cli
 Why flip cards instead of hover-expand? Hover doesn't exist on touch screens. A hidden checkbox toggled by a <label> means the same tap works on a phone and a click works on desktop — no JavaScript required. Cards also glow pink around the edges on hover to signal they're interactive.
 
 
-4. Education
+5. Education
 A vertical timeline with a gradient line running down the left and a marker dot for each entry:
 BBA (Digital Business & Entrepreneurship) — IIM Bangalore
 Economics (Hons.) — University of Delhi
 Python for Data Analytics — self-directed learning
 Hovering an entry shifts it slightly and makes its marker glow, drawing attention to what you're reading.
 
-5. Hobbies
+6. Hobbies
 Three cards for the things I do outside coursework, each with its own small themed animation:
 Music — two spectrum sliders (Jeff Buckley ↔ Skrillex, Honey Singh ↔ Lifafa) with a dot sliding back and forth, plus a twelve-bar equalizer that bounces. Hovering speeds both up.
 Cinema — a film strip with perforations and a flickering glow inside the frame.
 Books — six book spines of different heights that fan out on hover.
 A closing line ties the section together.
 
-6. This site
+7. This site
 Describes the project itself — that it was built from scratch with semantic HTML and one stylesheet — followed by a checklist of techniques used and a collapsible "Design notes" panel (a native <details> element). A second card lists what I want to learn next: Python fundamentals, honest data visualisation, clearer writing, and sharper design sense through daily practice.
 
-7. Contact
+8. Contact
 A single pink "Email me" button. Hovering (or tapping, on mobile) reveals a small card with my email address as a clickable mailto: link. Keeping it to one action avoids clutter while still giving a working way to reach me.
 Footer
 Copyright and a note that the site uses no JavaScript, laid out with Flexbox.
