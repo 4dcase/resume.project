@@ -56,7 +56,7 @@ A closing line ties the section together.
 
 6. This site
    
-Describes the project itself — that it was built from scratch with semantic HTML and one stylesheet — followed by a checklist of techniques used and a collapsible "Design notes" panel (a native <details> element). A second card lists what I want to learn next: Python fundamentals, honest data visualisation, clearer writing, and sharper design sense through daily practice.
+Describes the project itself — that it was built from scratch with semantic HTML and one stylesheet — followed by a checklist of techniques used and a collapsible "Design notes" panel (a native detail element). A second card lists what I want to learn next: Python fundamentals, honest data visualisation, clearer writing, and sharper design sense through daily practice.
 
 7. Contact
    
