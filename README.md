@@ -2,9 +2,7 @@
 Personal resume website — Web Development course project, BBA DBE, IIM Bangalore. Built with HTML and CSS only. Responsive, animated, no JavaScript.
 
 Web Development course project · BBA (Digital Business & Entrepreneurship), IIM Bangalore
-Built with HTML and CSS only — no JavaScript, no frameworks.
-Live site: https://your-username.github.io/resume/
-Repository: https://github.com/your-username/resume
+Built with HTML and CSS only — no JavaScript, no frameworks
 Built with HTML5 · CSS3 · No JavaScript
 
 Overview
@@ -23,6 +21,7 @@ Behind the text, three blurred colour blobs drift slowly, a rotating conic halo 
 2. About
 A short, centred paragraph explaining why studying economics and digital business at the same time is useful — the numbers behind a decision and the story that makes it make sense. A closing line gives a glimpse of how I think about work. Width is capped so lines stay comfortable to read on wide screens.
 
+
 3. What I bring
 Six cards, each covering one thing I bring to a team or a project:
 Communication — breaking ideas down clearly
@@ -33,6 +32,7 @@ Animal welfare volunteering — patience and coordination from NGO work
 Consistency over intensity — steady practice over sprinting
 Each card flips on click to reveal a longer note, and flips back on a second click. The front shows a number, title, category tag and a rotate icon; the back shows the explanation on a dark gradient.
 Why flip cards instead of hover-expand? Hover doesn't exist on touch screens. A hidden checkbox toggled by a <label> means the same tap works on a phone and a click works on desktop — no JavaScript required. Cards also glow pink around the edges on hover to signal they're interactive.
+
 
 4. Education
 A vertical timeline with a gradient line running down the left and a marker dot for each entry:
@@ -53,13 +53,9 @@ Describes the project itself — that it was built from scratch with semantic HT
 
 7. Contact
 A single pink "Email me" button. Hovering (or tapping, on mobile) reveals a small card with my email address as a clickable mailto: link. Keeping it to one action avoids clutter while still giving a working way to reach me.
-
 Footer
 Copyright and a note that the site uses no JavaScript, laid out with Flexbox.
-
-
 Design Decisions
-
 Colour
 A five-colour palette, used with intent rather than decoration:
 Near-black #0A0E17 — hero, navigation, dark surfaces, body text
@@ -102,9 +98,9 @@ aria-hidden="true" on all decorative animation (auroras, particles, equalizer, f
 aria-label on the navigation and icon-only controls.
 A prefers-reduced-motion media query that disables animation and transition for users who request it.
 Semantic landmarks throughout: <header>, <nav>, <main>, <section>, <article>, <footer>, plus ordered and definition lists where appropriate.
+
 Motion philosophy
 Animation is kept slow and subtle — long durations, gentle easing, low-opacity glows. The goal is a page that feels alive without being busy. Nothing flashes, nothing auto-plays audio, and everything respects reduced-motion preferences.
-
 Credits
 Fonts: Manrope and Inter via Google Fonts.
 Icons: inline SVG (Feather-style stroke icons), no external library.
