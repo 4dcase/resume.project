@@ -117,7 +117,7 @@ Visible :focus-visible outlines in cyan on every interactive element.
 aria-hidden="true" on all decorative animation (auroras, particles, equalizer, film strip, spines) so screen readers ignore them.
 aria-label on the navigation and icon-only controls.
 A prefers-reduced-motion media query that disables animation and transition for users who request it.
-Semantic landmarks throughout: <header>, <nav>, <main>, <section>, <article>, <footer>, plus ordered and definition lists where appropriate.
+Semantic landmarks throughout: header, nav,main, section, article, footer, plus ordered and definition lists where appropriate.
 
 Motion philosophy
 
